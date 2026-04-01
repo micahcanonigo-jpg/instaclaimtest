@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InstaClaim — Expense Claim Automation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <img
+          class="logo-img"
+          src="Assets/Instaclaim%20Logo.svg"
+          alt="InstaClaim"
+          width="307"
+          height="101"
+          decoding="async"
+        />
+      </a>
+
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#login" class="btn btn-ghost">Log in</a>
+          <a href="#signup" class="btn btn-primary">Sign up</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Create project reports in instants, not hours</h1>
+          <p class="hero-lead">
+            Simplify your expense claim documentation and take your projects to the next level with InstaClaim's automated workflow.
+          </p>
+          <div class="hero-ctas">
+            <a href="#signup" class="btn btn-primary btn-lg">Get started</a>
+            <a href="#how-it-works" class="btn btn-outline btn-lg">Learn more</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=700&fit=crop&q=80"
+            alt="Person working on a laptop with analytics on screen"
+            width="600"
+            height="450"
+            loading="eager"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark how-it-works" id="how-it-works">
+      <div class="container how-inner">
+        <p class="section-label">How it works</p>
+        <h2 class="section-title section-title--light">InstaClaim in action</h2>
+        <div class="video-wrap">
+          <div class="video-embed">
+            <iframe
+              src="https://www.youtube.com/embed/jNQXAC9IVRw?rel=0"
+              title="How to use InstaClaim — replace this embed URL with your tutorial"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+          <p class="video-caption">Swap the <code>iframe</code> <code>src</code> in <code>index.html</code> for your own walkthrough.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="documentation">
+      <div class="container">
+        <p class="section-label section-label--dark">Key features</p>
+        <h2 class="section-title">Automate the expense report generation process</h2>
+        <p class="features-intro">
+          From bulk downloads to secure redaction and dashboards, InstaClaim streamlines every step of expense documentation.
+        </p>
+        <ul class="feature-grid">
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </div>
+            <h3>Bulk invoice download</h3>
+            <p>Pull multiple invoices at once and keep your project files organized without manual chasing.</p>
+          </li>
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3>Expense claim summary</h3>
+            <p>Generate clear summaries that match your approval workflow and audit requirements.</p>
+          </li>
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <h3>Bank statement redaction</h3>
+            <p>Automatically mask sensitive lines so you can share documents safely with clients and teams.</p>
+          </li>
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <h3>Reporting dashboard</h3>
+            <p>See spend, status, and bottlenecks in one place with exports your finance team expects.</p>
+          </li>
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Workflow automation</h3>
+            <p>Trigger steps, reminders, and handoffs so claims move forward without spreadsheet ping-pong.</p>
+          </li>
+          <li class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Organization &amp; client management</h3>
+            <p>Structure teams, clients, and permissions so the right people see the right claims.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta-banner" id="pricing">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Enter the future of expense claim automation</h2>
+          <p>
+            Reduce manual work, improve accuracy, and give your projects a professional documentation layer—without the late-night spreadsheet sessions.
+          </p>
+          <a href="#signup" class="btn btn-primary btn-lg cta-box__btn">Get started</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <nav class="footer-links" aria-label="Footer">
+          <a href="#">Home</a>
+          <a href="#about">About InstaClaim</a>
+          <a href="#documentation">Documentation</a>
+          <a href="#pricing">Pricing</a>
+        </nav>
+        <p class="footer-meta">
+          © 2023–2026 Crower Ltd
+          <span class="footer-meta-sep">|</span>
+          <a href="#">Terms of Use</a>
+          <span class="footer-meta-sep">|</span>
+          <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+      <div class="footer-social" aria-label="Social links">
+        <a href="#" class="social-link" aria-label="Twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
